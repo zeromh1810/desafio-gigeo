@@ -1,0 +1,34 @@
+body {
+	margin:0;
+	padding:0;
+}
+
+img {
+	max-width: 100%;
+	width:100%;
+}
+
+
+@media all and (min-width: 575px) {
+	.profile {
+
+		&__menu {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+		}
+	
+		// &__avatar {
+		// 	margin-left:2rem;
+		// }
+	}
+
+	.feature-videos__title {
+		text-align:left;
+	}
+	
+	.thumbnails {
+		max-width: 250px;
+	
+	}
+}

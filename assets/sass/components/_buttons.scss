@@ -1,0 +1,12 @@
+.menu-button {
+    padding:.5rem 1rem;
+    border:none;
+    color:$sun-white;
+    background-color: $sea-blue;
+    margin:0 .5rem;
+
+    &--red {
+       @extend .menu-button;
+       background-color: $salmon-orange; 
+    }
+}

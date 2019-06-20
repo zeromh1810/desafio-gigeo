@@ -1,0 +1,120 @@
+@charset "UTF-8";
+/**
+  * Patrón 7-1
+  *
+  * Esta es la estructura del patrón 7-1 utilizado en DesafíoLatam
+  * para la enseñanza del uso correcto de patrones dentro de CSS y
+  * también para la utilización de éste dentro de estructuras de 
+  * trabajo colaborativo.
+  *
+  * @author Cristóbal Domínguez <cristobald@me.com>
+  * @since 1.0
+  *
+  */
+.menu-button, .menu-button--red {
+  padding: 0.5rem 1rem;
+  border: none;
+  color: #fff;
+  background-color: #92dce5;
+  margin: 0 0.5rem;
+}
+.menu-button--red {
+  background-color: #ef6461;
+}
+
+.brand-logo {
+  max-width: 120px;
+}
+
+.profile {
+  border-bottom: 1px solid #f2f2f2;
+  padding-bottom: 1rem;
+}
+.profile__portrait {
+  background-image: url("../img/image-banner.png");
+  background-size: cover;
+  background-position: center center;
+  min-height: 300px;
+  width: 100%;
+}
+.profile__menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.profile__avatar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+.profile__avatar__img {
+  max-width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+.profile__avatar__name {
+  margin-left: 1rem;
+}
+.thumbnails {
+  max-width: 80vw;
+}
+
+/*
+ *
+ * Este archivo contiene las referencias del código boilerplate de tu proyecto.
+ * Aquí podrás encontrar referencias al archivo _reset.scss, a las tipografías
+ * y probablemente algún otro archivo de estilos que defina de una forma estándard
+ * los estilos de elementos usados en HTML.
+ *
+ *
+ * Nota: 
+ * Si tu proyecto usa muchas animaciones, deberías considerar agregar dentro de
+ * esta carpeta un archivo /_animations.scss que contenga las definiciones de los
+ * @keyframes de todas tus animaciones.
+ *
+ * @author Cristóbal Domínguez <cristobald@me.com>
+ * @since 1.0
+ *
+ */
+h3 {
+  font-size: 18px;
+}
+
+h5 {
+  font-size: 14px;
+  color: #a2a2a2;
+  font-weight: 300;
+}
+
+.feature-videos__title {
+  text-align: center;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+  width: 100%;
+}
+
+@media all and (min-width: 575px) {
+  .profile__menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .feature-videos__title {
+    text-align: left;
+  }
+
+  .thumbnails {
+    max-width: 250px;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
